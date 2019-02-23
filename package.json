@@ -1,0 +1,35 @@
+{
+  "name": "nanohtml-node",
+  "version": "0.0.0",
+  "description": "Get a full DOM object back from nanohtml on the server side",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/index.js",
+    "lint": "standard",
+    "test-lint": "npm run test && npm run lint"
+  },
+  "dependencies": {
+    "domino": "^2.1.2",
+    "nanohtml": "^1.4.0"
+  },
+  "devDependencies": {
+    "documentation": "^9.2.0",
+    "standard": "^12.0.1",
+    "tape": "^4.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethvincent/nanohtml-node.git"
+  },
+  "keywords": [
+    "nanohtml",
+    "choo",
+    "domino"
+  ],
+  "author": "sethvincent <sethvincent@gmail.com> (https://sethvincent.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sethvincent/nanohtml-node/issues"
+  },
+  "homepage": "https://github.com/sethvincent/nanohtml-node#readme"
+}
