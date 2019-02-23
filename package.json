@@ -1,6 +1,6 @@
 {
   "name": "nanohtml-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get a full DOM object back from nanohtml on the server side",
   "main": "index.js",
   "scripts": {
