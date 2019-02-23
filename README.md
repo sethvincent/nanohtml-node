@@ -36,7 +36,7 @@ Here's a very simple example testing interaction with a button click handler:
 
 ```js
 const test = require('tape')
-const html = require('../index')
+const html = require('nanohtml-node')
 
 test('test that element', function (t) {
   t.plan(4)
