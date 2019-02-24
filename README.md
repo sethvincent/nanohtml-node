@@ -54,6 +54,18 @@ test('test that element', function (t) {
 })
 ```
 
+## Using this alongside nanohtml
+
+A conventient way to use this as an application dependency is to require this module only if the `NODE_ENV` is `test`:
+
+```js
+module.exports = process.env.NODE_ENV === 'test'
+  ? require('nanohtml-node')
+  : require('nanohtml')
+```
+
+Put the above in a file called html.js in your application and require it instead of requiring those modules independently.
+
 ## You might not need this
 
 This package is a simple wrapper around domino and nanohtml. You may find that you have slightly different needs than this package allows. The good news is that the code is very small and easy to copy/paste:
