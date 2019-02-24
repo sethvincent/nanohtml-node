@@ -77,7 +77,7 @@ Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTIN
 
 ## Conduct
 
-It's important that this project contributes to a friendly, safe, and welcoming environment for all, particularly for folks that are historically underrepresented in technology. Read this project's [code of conduct](CONDUCT.md)
+It's important that this project contributes to a friendly, safe, and welcoming environment for all, particularly for folks that are historically underrepresented in technology. Read this project's [code of conduct](CODE_OF_CONDUCT.md)
 
 ## Change log
 

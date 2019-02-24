@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node tests/index.js",
     "lint": "standard",
-    "test-lint": "npm run test && npm run lint"
+    "test-lint": "npm run test && npm run lint",
+    "bench": "nanobench benchmarks/*.js"
   },
   "dependencies": {
     "domino": "^2.1.2",
@@ -14,6 +15,7 @@
   },
   "devDependencies": {
     "documentation": "^9.2.0",
+    "nanobench": "^2.1.1",
     "standard": "^12.0.1",
     "tape": "^4.10.1"
   },
